@@ -105,11 +105,6 @@ clasificador3x3/
 │   └── neural_network.h
 ├── src/               # Código fuente (.cpp)
 │   ├── main.cpp
-│   ├── nn_dense.cpp
-│   ├── nn_activation.cpp
-│   ├── nn_loss.cpp
-│   ├── nn_optimizer.cpp
-│   └── neural_network.cpp
 ├── data/
 │   └── dataset3x3.csv
 ├── CMakeLists.txt
