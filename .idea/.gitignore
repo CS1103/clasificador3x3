@@ -1,8 +1,17 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+Makefile
+cmake_install.cmake
+.idea/
+.vscode/
+*.code-workspace
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.log
+*.tmp
