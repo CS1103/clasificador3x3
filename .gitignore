@@ -1,8 +1,18 @@
-cmake-build-debug/
+# Carpetas de compilacion
 build/
-*.exe
-*.o
-*.obj
+cmake-build-debug/
+
+# Configuración de IDEs
+.idea/
+.vscode/
+
+# Archivos temporales
 *.log
 *.tmp
-*.DS_Store
+*.swp
+.DS_Store
+
+# Binarios
+*.exe
+*.out
+*.o
