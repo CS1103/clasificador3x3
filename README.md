@@ -31,8 +31,7 @@ Implementación de una red neuronal multicapa en C++20 desde cero para la clasif
 ### Integrantes:
 
 * **Daniel Guillermo Sandoval Toro– 202310533** (Implementación de la arquitectura, modelo final)
-* **Sergio Leonardo Llanos Parraga– 202210188** (Documentación y demo)
-
+* **Sergio Leonardo Llanos Parraga– 202210188** (Documentación , informe y demo)
 
 ---
 
@@ -190,10 +189,10 @@ Accuracy: 90.0%
 | Investigación teórica     | **Daniel Sandoval** | Documentar bases teóricas                 |
 | Diseño de la arquitectura | **Daniel Sandoval** | UML y estructura de clases                |
 | Implementación del modelo | **Daniel Sandoval** | Programación del sistema completo         |
-| Pruebas y benchmarking    | sergio              | Generación de métricas y validación       |
-| Documentación y demo      | sergio              | Redacción del README y video de ejecución |
+| Pruebas y benchmarking    | **Sergio Llanos**   | Generación de métricas y validación       |
+| Documentación y demo      | **Sergio Llanos**   | Redacción del README y video de ejecución |
+| Informe                   | **Sergio Llanos**   | Redacción del informe                     |
 
-*Actualizar con los nombres reales si aplica*
 
 ---
 
@@ -240,7 +239,7 @@ Link de la demo del video:
 
 ## 9. Link del informe
 
-Hipervinculo del informe: 
+[Ver informe del proyecto en PDF](./InformedeProyecto_Clasificador3x3.pdf)
 
 ---
 ## Licencia
