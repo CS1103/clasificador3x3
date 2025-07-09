@@ -33,9 +33,9 @@ namespace utec {
                 Shape strides;
                 strides[Rank - 1] = 1;
                 // Cambiar int por size_t
-                for (size_t i = Rank - 2; i < Rank; --i) {
+                for (int i = static_cast<int>(Rank) - 2; i >= 0; --i){
                     strides[i] = strides[i + 1] * shape[i + 1];
-                }
+            }
                 return strides;
             }
             size_t total_size() const {

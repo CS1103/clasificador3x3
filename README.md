@@ -30,8 +30,9 @@ Implementación de una red neuronal multicapa en C++20 desde cero para la clasif
 
 ### Integrantes:
 
-* **Daniel Guillermo Sandoval Toro– 202310533** (Implementación de la arquitectura, modelo completo, documentación y demo)
-  *(sergio)*
+* **Daniel Guillermo Sandoval Toro– 202310533** (Implementación de la arquitectura, modelo final)
+* **Sergio Leonardo Llanos Parraga– 202210188** (Documentación y demo)
+
 
 ---
 
@@ -231,6 +232,17 @@ Accuracy: 90.0%
 
 ---
 
+## 8. Video de la demo
+
+Link de la demo del video: 
+
+---
+
+## 9. Link del informe
+
+Hipervinculo del informe: 
+
+---
 ## Licencia
 
 Este proyecto usa la licencia MIT. Consulta el archivo `LICENSE` para más detalles.

@@ -13,7 +13,7 @@ using namespace dataset;
 
 int main() {
     // Cargar datos
-    auto [X_full, Y_full] = load_csv_dataset("dataset3x3.csv");
+    auto [X_full, Y_full] = load_csv_dataset( "C:/Users/PC-01/CLionProjects/projecto-final-react2/dataset3x3.csv");
 
     // Conteo de clases (X=0, O=1, Nada=2)
     std::array<int, 3> conteo_clases = {0, 0, 0};
@@ -63,7 +63,7 @@ int main() {
     model.add_layer(std::make_unique<Sigmoid<float>>());
 
     // Entrenar
-    model.train<BCELoss>(X_train, Y_train, 500, 32, 0.01);
+    model.train<BCELoss>(X_train, Y_train, 2000, 128, 0.01);
 
     // Evaluar sobre datos de prueba
     std::array<std::string, 3> clases = {"X", "O", "Nada"};
@@ -84,8 +84,9 @@ int main() {
             ++correctos;
 
         std::cout << "Prediccion: " << clases[clase_predicha]
-                  << " | Real: " << clases[clase_real] << "\n";
+                  << " | Real: " << clases[clase_real] << "\n" << std::flush;
     }
+
 
     float accuracy = static_cast<float>(correctos) / X_test.shape()[0];
     std::cout << "\nAccuracy: " << (accuracy * 100.0f) << "%\n";
