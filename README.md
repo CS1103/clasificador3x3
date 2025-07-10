@@ -233,7 +233,7 @@ Accuracy: 90.0%
 
 ## 8. Video de la demo
 
-Link de la demo del video: 
+Link de la demo del video: https://youtu.be/VhbCv4L3AgQ
 
 ---
 
